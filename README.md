@@ -17,8 +17,11 @@ The visualization has following objective:
 -   top 5 product categories with the highest quantity
 After creating the dashboard, we will provide recommendations for stakeholders.
 ### Data
-Source table name: table of Customers, table ofl Products, table of Order and table of ProductCategory
+Source table name: table of Customers, table ofl Products, table of Order and table of ProductCategory.
+
 Entity Relationhip Diagram:
+
+![erd](https://github.com/dodystat/vix_businessintelligence/blob/master/image/ERD.png)
 
 Hasil penggabungan kolom yang diperlukan berdasarkan ERD antar tabel menggunakan Postgre SQL:
 ### Visualization dan Interpretation
