@@ -23,15 +23,34 @@ Entity Relationhip Diagram:
 
 ![erd](https://github.com/dodystat/vix_businessintelligence/blob/master/image/ERD%20.png)
 
-Hasil penggabungan kolom yang diperlukan berdasarkan ERD antar tabel menggunakan Postgre SQL:
+Menggabungkan beberapa kolom dari keempat tabel menjadi satu tabel.
+Combines several columns from four table into one (1) table.
+![fix table](https://github.com/dodystat/vix_businessintelligence/blob/master/image/tabel_sql_join.png)
 
+### Visualization and Interpretation
+To create dashboard/visualization using Looker Studio software.
+![sales and quantity by category](https://github.com/dodystat/vix_businessintelligence/blob/master/image/sales_order_by_category.png)
 
-### Visualization dan Interpretation
-Melakukan analisis dari data diatas dengan membuat dashboard/visualisasi menggunakan software Looker Studio.
-### Rekomendasi
--  Fokus untuk melakukan penjualan lebih banyak untuk kategori e-books dan robots.
--  Pejualan produk agar lebih banyak dilakukan di Kota Wahington dan Houston.
--  Penjualan bulan Januari, Mei, September agar diperbanyak.
+The total sales of all products amounted to 1,754,750.57. The product category in the form of Robots provides the company with the highest income/sales of 743,500.
+
+Meanwhile, the product category in the form of eBooks was the most purchased in quantity, with 3,123 transactions.
+
+In terms of product price value, the Robots category provides a large income, but in terms of quantity, eBooks products are the best sellers.
+
+![sales and quantity by city](https://github.com/dodystat/vix_businessintelligence/blob/master/image/sales_order_by_city.png)
+
+The product category in the form of Robots provided the company with the highest income/sales of 743,500 followed by Drones, Robot Kits, Drone Kits and Training Videos.
+
+Meanwhile, the product category in the form of eBooks was the most purchased in quantity, with 3,123 transactions, followed by Training Videos, Blueprints, Drone Kits and Drones.
+
+In terms of product price value, the Robots category provides a large income, but in terms of quantity, eBooks products are the best sellers.
+
+![top sales and quantity by category](https://github.com/dodystat/vix_businessintelligence/blob/master/image/topsalesquantity_bycaegory_bytime.png)
+The biggest and most sales occur in January, May, September. While at the end of the year tends to fall.
+### Rekomendation
+-  Focus on making more sales for the e-books and robots categories.
+-  Sales of products to be done more in the City of Washington and Houston.
+-  Sales in January, May, September to be reproduced.
 
 
 
