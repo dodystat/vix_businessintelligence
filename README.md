@@ -21,9 +21,11 @@ Source table name: table of Customers, table ofl Products, table of Order and ta
 
 Entity Relationhip Diagram:
 
-![erd](https://github.com/dodystat/vix_businessintelligence/blob/master/image/ERD.png)
+![erd](https://github.com/dodystat/vix_businessintelligence/blob/master/image/ERD%20.png)
 
 Hasil penggabungan kolom yang diperlukan berdasarkan ERD antar tabel menggunakan Postgre SQL:
+
+
 ### Visualization dan Interpretation
 Melakukan analisis dari data diatas dengan membuat dashboard/visualisasi menggunakan software Looker Studio.
 ### Rekomendasi
